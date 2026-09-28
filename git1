@@ -1,0 +1,26 @@
+  1  kubectl get nodes
+    2  kubectl get nodes -I
+    3  kubectl get nodes -o wide
+    4  git clone https://github.com/ManaliSant/Kubernetes-Practice.git
+    5  ls
+    6  cd Kubernetes-Practice/
+    7  ll
+    8  mkdir voting-app
+    9  cd voting-app
+   10  mkdir vote
+   11  cd vote
+   12  vote-pod.yaml
+   13  vim vote-pod.yaml
+   14  kubectl explain Pod --recursive 
+   15  kubectl explain Pod.spec --recursive 
+   16  git branch
+   17  git push origin main
+   18  git add *
+   19  ls
+   20  git status
+   21  git commit -m "vote pod file added"
+   22  git config --global user.email "mana@gmail.com"
+   23  git config --global user.name "manali"
+   24  git commit -m "vote pod file added"
+   25  git push origin main
+   26  history
